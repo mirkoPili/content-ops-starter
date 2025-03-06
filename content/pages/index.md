@@ -9,9 +9,10 @@ sections:
       type: TitleBlock
     subtitle: Subtitle goes her
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      In un mondo in cui si punta al digitale e robotica, EventGuru è improntata
+      nel creare community e far vivere esperienze uniche!
+
+       
     actions:
       - label: Get started
         altText: ''
