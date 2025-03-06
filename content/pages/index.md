@@ -7,7 +7,7 @@ sections:
       text: EventGuru un nuovo modo di vivere gli eventi
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes her
+    subtitle: ''
     text: >
       In un mondo in cui si punta al digitale e robotica, EventGuru è improntata
       nel creare community e far vivere esperienze uniche!
