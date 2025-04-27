@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirect su Instagram</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // 🔵 URL della tua WebApp di Google Apps Script
+      const webAppUrl = "https://script.google.com/macros/s/AKfycbx.../exec";
+
+      // 🔵 Prima salva il clic
+      fetch(webAppUrl)
+        .then(response => {
+          // ✅ Appena salvato, redirect a Instagram
+          window.location.href = "https://www.instagram.com/EventGuru.it/";
+        })
+        .catch(error => {
+          console.error('Errore durante il salvataggio clic:', error);
+          // ✅ Anche in caso di errore, redirect lo stesso
+          window.location.href = "https://www.instagram.com/EventGuru.it/";
+        });
+
+      // 🔵 Dopo 3 secondi massimo forza il redirect anche se il fetch non risponde
+      setTimeout(() => {
+        window.location.href = "https://www.instagram.com/EventGuru.it/";
+      }, 3000);
+    });
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      margin-top: 100px;
+    }
+    h1 {
+      color: #4CAF50;
+    }
+    p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ Ti stiamo reindirizzando su Instagram...</h1>
+  <p>Se non vieni reindirizzato automaticamente, <a href="https://www.instagram.com/EventGuru.it/">clicca qui</a>.</p>
+</body>
+</html>
